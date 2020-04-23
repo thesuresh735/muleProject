@@ -25,6 +25,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+					<username>pratap2007</username>
+					<password>Rashi@26</password>
+					<environment>Sandbox</environment>
+					<workers>1</workers>
+					<workerType>Micro</workerType>
+					<applicationName>mongoDbInteracton-service</applicationName>
+					<muleVersion>4.2.2</muleVersion>
+				</cloudHubDeployment>	
 				<sharedLibraries>
                         <sharedLibrary>
                             <groupId>com.mycompany</groupId>
