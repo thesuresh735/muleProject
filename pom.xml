@@ -33,7 +33,7 @@
 					<workers>1</workers>
 					<workerType>Micro</workerType>
 					<applicationName>mongoDbInteracton-service</applicationName>
-					<muleVersion>mule-version</muleVersion>
+					<muleVersion>4.2.2</muleVersion>
 				</cloudHubDeployment>	
 				<sharedLibraries>
                         <sharedLibrary>
