@@ -7,7 +7,7 @@ http://www.mulesoft.org/schema/mule/mongo http://www.mulesoft.org/schema/mule/mo
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="386aa831-5da3-4754-a849-b8713a557462">
-		<http:listener-connection host="0.0.0.0" port="8081" />
+		<http:listener-connection host="0.0.0.0" port="8082" />
 	</http:listener-config>
 	<mongo:config name="MongoDB_Config" doc:name="MongoDB Config" doc:id="bc8cc039-7b8d-42cd-b94d-6c27abf1f5aa" >
 		<mongo:connection database="kafka" >
