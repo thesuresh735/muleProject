@@ -32,7 +32,7 @@
 					<environment>Sandbox</environment>
 					<workers>1</workers>
 					<workerType>Micro</workerType>
-					<objectStoreV2>true</objectStoreV2>
+					<objectStoreV2>false</objectStoreV2>
 					<applicationName>mongoDbInteracton-service</applicationName>
 					<muleVersion>4.2.2</muleVersion>
 				</cloudHubDeployment>	
